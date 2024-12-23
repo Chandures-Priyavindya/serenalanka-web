@@ -2,6 +2,7 @@ import React from "react";
 import "./home.scss";
 import img from "../../assets/sea2.avif";
 import { FaLocationDot } from "react-icons/fa6";
+import { HiFilter } from "react-icons/hi";
 
 const Home = () => {
   return (
@@ -37,6 +38,11 @@ const Home = () => {
             <div className="input flex">
               <input type="range" max="3000" min="1000"/>
             </div>
+          </div>
+
+          <div className="searchOption flex">
+          <HiFilter className="icon"/>
+          <span>More Filters</span>
           </div>
         </div>
       </div>
