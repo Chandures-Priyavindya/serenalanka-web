@@ -45,6 +45,15 @@ const Home = () => {
           <span>More Filters</span>
           </div>
         </div>
+
+        <div className="homeFooterIcons flex">
+          <div className="rightIcons">
+
+          </div>
+          <div className="rightIcons">
+            
+          </div>
+        </div>
       </div>
     </section>
   );

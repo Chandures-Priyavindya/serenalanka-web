@@ -132,10 +132,20 @@
         padding: 5px 1rem;
         left: 50%;
         transform: translate(-50%);
+        cursor: pointer;
+
+        &:hover{
+          background: var(--PrimaryColor);
+        }
 
 
         .icon{
           color: white;
+          font-size: 18px;
+        }
+
+        span{
+          font-size: -33px;
         }
       }
       
