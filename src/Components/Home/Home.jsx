@@ -3,6 +3,11 @@ import "./home.scss";
 import img from "../../assets/sea2.avif";
 import { FaLocationDot } from "react-icons/fa6";
 import { HiFilter } from "react-icons/hi";
+import { FiFacebook } from "react-icons/fi";
+import { FaInstagram } from "react-icons/fa";
+import { FaTripadvisor } from "react-icons/fa";
+import { IoIosList } from "react-icons/io";
+import { TbApps } from "react-icons/tb";
 
 const Home = () => {
   return (
@@ -48,10 +53,14 @@ const Home = () => {
 
         <div className="homeFooterIcons flex">
           <div className="rightIcons">
+          <FiFacebook className="icon"/>
+          <FaInstagram className="icon"/>
+          <FaTripadvisor className="icon"/>
 
           </div>
-          <div className="rightIcons">
-            
+          <div className="lefttIcons">
+          <IoIosList className="icon"/>
+          <TbApps className="icon"/>
           </div>
         </div>
       </div>
