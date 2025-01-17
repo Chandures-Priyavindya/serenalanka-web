@@ -1,4 +1,6 @@
-import React from "react";
+import React, {useEffect} from "react";
+import Aos from 'aos'
+import 'aos/dist/aos.css'
 import "./main.scss";
 import sigiriya from "../../assets/sigiriya.jpg";
 import ella from "../../assets/ella.jpg";
@@ -62,16 +64,20 @@ const Data = [
 ];
 
 const Main = () => {
+  //animations
+    useEffect(()=>{
+      Aos.init({duration:2000})
+    },[])
   return (
     <section className="main container section">
       <div className="secTitle">
-        <h3 className="title">Most visited destination</h3>
+        <h3 data-aos="fade-right" className="title">Most visited destination</h3>
       </div>
       <div className="secContent grid">
         {Data.map(
           ({ id, imgSrc, destTitle, location, grade, fees, description }) => {
             return (
-              <div key={id} className="singleDestination">
+              <div data-aos="fade-up" key={id} className="singleDestination">
                 <div className="imageDiv">
                   <img src={imgSrc} alt={destTitle} />
                 </div>
