@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/serenalanka-web/static/css/main.77bcffee.css",
+    "main.js": "/serenalanka-web/static/js/main.4e1b1fea.js",
+    "static/media/sigiriya.jpg": "/serenalanka-web/static/media/sigiriya.c8bab1721ecbc540581c.jpg",
+    "static/media/sea2.avif": "/serenalanka-web/static/media/sea2.982f800f0b8b63f78e33.avif",
+    "static/media/horton_plains.jpg": "/serenalanka-web/static/media/horton_plains.c2efbcfc48c98a69d2e5.jpg",
+    "static/media/mirissa.jpg": "/serenalanka-web/static/media/mirissa.c7ff27e4c381bd55dca3.jpg",
+    "index.html": "/serenalanka-web/index.html",
+    "main.77bcffee.css.map": "/serenalanka-web/static/css/main.77bcffee.css.map",
+    "main.4e1b1fea.js.map": "/serenalanka-web/static/js/main.4e1b1fea.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.77bcffee.css",
+    "static/js/main.4e1b1fea.js"
+  ]
+}
